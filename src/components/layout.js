@@ -35,9 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        Drupal is a registered <a href="http://drupal.com/trademark">trademark</a> of <a href="http://buytaert.net/">Dries Buytaert</a>.
         </footer>
       </div>
     </>

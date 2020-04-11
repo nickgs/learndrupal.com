@@ -7,14 +7,13 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <SEO title="Learn Drupal" />
+    <h1>Learn the Drupal Content Management System</h1>
+    <p>We are cooking something up! We are currently looking for training partners.</p>
+    <p>If you provide Drupal training please reach out to us at <a href="mailto:info@segosolutions.com">info@segosolutions.com</a></p>
+    <div style={{ maxWidth: `150px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
